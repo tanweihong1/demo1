@@ -1,0 +1,269 @@
+.main-gs {
+	width: 100%;
+	height: 710px;
+	height: auto;
+	background-color: #FFFFFF;
+	position: relative;
+	background: url(../images/bg.png);
+}
+.main-gs-active {
+	
+	height: 900px !important;
+} 
+.main-gs .center {
+	width: 1100px;
+	height: 710px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -75px;
+	background-color: #FFFFFF;
+	text-align: center;
+	box-shadow: 0px 5px #FFFAFA;
+}
+.main-gs .center-top {
+	/* height: 160px; */
+	margin: 0 0 20px auto;
+
+	
+}
+.main-gs .center-top .p1 {
+	margin-top: 75px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #333333;
+	margin-bottom: 7px;
+}
+
+.main-gs .center-top .p2 {
+	font-size: 18px;
+	color: #b2b2b2;
+		position: relative;
+}
+
+.main-gs .center-top .p2::after {
+	content: "";
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: -8px;
+	background: #0071bc;
+	display: block;
+}
+.main-gs .center .post-intro-list {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.main-gs .center .post-intro-list li {
+  width: 100%;
+  margin-bottom: 4px;
+  overflow: hidden;
+  height: 80px;
+}
+.main-gs .center .post-intro-list li .thead {
+  background: #e6e6e6;
+  cursor: pointer;
+  height: 80px;
+  line-height: 80px;
+  text-align: left;
+}
+.main-gs .center .post-intro-list li .thead .intro-title {
+  font-size: 22px;
+  color: #333333;
+}
+.main-gs .center .post-intro-list li .thead .add-icon {
+  vertical-align: middle;
+  margin-top: -5px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 30px;
+  margin-right: 15px;
+  background: url(../images/icon2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.main-gs .center .post-intro-list li .thead .intro-time {
+  float: right;
+  margin-right: 25px;
+}
+.main-gs .center .post-intro-list li .content-box {
+  background: #fafafa;
+  padding-bottom: 30px;
+  text-align: left;
+}
+.main-gs .center .post-intro-list li .content-box .content {
+  padding-top: 37px;
+  padding-left: 75px;
+  padding-right: 35px;
+  font-size: 18px;
+  color: #333333;
+  line-height: 35px;
+}
+.main-gs .center .post-intro-list li .content-box .go-apply {
+  text-align: right;
+  margin-top: 13px;
+}
+.main-gs .center .post-intro-list li .content-box .go-apply button {
+  margin-right: 35px;
+  width: 144px;
+  font-size: 18px;
+  color: #ffffff;
+  height: 44px;
+  background: #0071bc;
+  border-radius: 6px;
+}
+.main-gs .center .post-intro-list .li-active {
+  height: auto;
+}
+.main-gs .center .post-intro-list .li-active .thead {
+  color: #ffffff;
+  background: #0071bc;
+}
+.main-gs .center .post-intro-list .li-active .thead .intro-title {
+  color: #ffffff;
+}
+.main-gs .center .post-intro-list .li-active .thead .add-icon {
+  margin-top: 18px;
+  background: url(../images/icon3.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .center .center-top {
+  width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.center .center-top .post-intro-list {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+.center .center-top .post-intro-list li {
+  width: 100%;
+  margin-bottom: 4px;
+  overflow: hidden;
+  height: 80px;
+}
+.center .center-top .post-intro-list li .thead {
+  background: #e6e6e6;
+  cursor: pointer;
+  height: 80px;
+  line-height: 80px;
+}
+.center .center-top .post-intro-list li .thead .intro-title {
+  font-size: 22px;
+  color: #333333;
+}
+.center .center-top .post-intro-list li .thead .add-icon {
+  vertical-align: middle;
+  margin-top: -5px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 30px;
+  margin-right: 15px;
+  background: url(../images/icon2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.center .center-top .post-intro-list li .thead .intro-time {
+  float: right;
+  margin-right: 25px;
+}
+.center .center-top .post-intro-list li .content-box {
+  background: #fafafa;
+  padding-bottom: 30px;
+}
+.center .center-top .post-intro-list li .content-box .content {
+  padding-top: 37px;
+  padding-left: 75px;
+  padding-right: 35px;
+  font-size: 18px;
+  color: #333333;
+  line-height: 35px;
+}
+.center .center-top .post-intro-list li .content-box .go-apply {
+  text-align: right;
+  margin-top: 13px;
+}
+.center .center-top .post-intro-list li .content-box .go-apply button {
+  margin-right: 35px;
+  width: 144px;
+  font-size: 18px;
+  color: #ffffff;
+  height: 44px;
+  background: #0071bc;
+  border-radius: 6px;
+}
+.center .center-top .post-intro-list .li-active {
+  height: auto;
+}
+.center .center-top .post-intro-list .li-active .thead {
+  color: #ffffff;
+  background: #0071bc;
+}
+.center .center-top .post-intro-list .li-active .thead .intro-title {
+  color: #ffffff;
+}
+.center .center-top .post-intro-list .li-active .thead .add-icon {
+  margin-top: 18px;
+  background: url(../images/icon3.png) no-repeat;
+}
+.center .center-top .paginator-box {
+  width: 100%;
+  margin-top: 111px;
+  margin-bottom: 60px;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+}
+.center .center-top .paginator-box a {
+  color: #808080;
+  font-size: 18px;
+  display: inline-block;
+}
+.center .center-top .paginator-box .page-active {
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  margin-left: 22px;
+  margin-right: 22px;
+  font-size: 14px;
+  background: #0071bc;
+} */

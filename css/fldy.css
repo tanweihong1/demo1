@@ -1,0 +1,16 @@
+.main-gs-fl .fringe-benefits-list {
+  padding-top: 25px;
+  overflow: hidden;
+}
+.main-gs-fl .fringe-benefits-list li {
+  width: 33.333333%;
+  float: left;
+  margin-bottom: 75px;
+}
+.main-gs-fl .fringe-benefits-list li p {
+  font-size: 18px;
+  color: #333333;
+}
+.main-gs-fl .fringe-benefits-list li .p1 {
+  margin-bottom: 6px;
+}

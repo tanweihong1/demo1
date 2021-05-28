@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>联系方式</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/lxfs.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
+	</head>
+	<body>
+		<div class="header">
+			<img src="images/banner.jpg" style="width: 100%;" />
+			<div class="nav">
+				<div class="logo"><img src="images/logo.png" alt=""></div>
+				<ul class="nav-list">
+					<li><a href="index.html" class="nav-a">首页</a></li>
+					<li><a href="gsjj.html" class="nav-a">公司简介</a></li>
+					<li><a href="zpgw.html" class="nav-a">招聘岗位</a></li>
+					<li><a href="zplc.html" class="nav-a">招聘流程</a></li>
+					<li><a href="fztd.html" class="nav-a">发展通道</a></li>
+					<li><a href="fldy.html" class="nav-a">福利待遇</a></li>
+					<li><a href="lxfs.html" class="nav-a nav-a-active">联系方式</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- header end -->
+		<div class="main-gs main-lx">
+			<div class="center center-lx">
+				<div class="lxwm-container">
+				<div class="center-top">
+					<p class="p1">联系方式</p>
+					<p class="p2">CONTACT</p>
+				</div>
+				<div class="contact-list">
+				    <div class="contact-item">
+				        <div class="img">
+				            <img src="images/icon5.png" alt="">
+				        </div>
+				        <p class="p1">总部地址</p>
+				        <p class="p2">广州市天河区林和西路</p>
+				        <p class="p3">167号威尼国际写字楼31楼</p>
+				    </div>
+				    <div class="contact-item">
+				        <div class="img">
+				            <img src="images/icon4.png" alt="">
+				        </div>
+				        <p class="p1">联系人</p>
+				        <p class="p2">人力资源部：胡小姐</p>
+				    </div>
+				    <div class="contact-item">
+				        <div class="img">
+				            <img src="images/icon4.png" alt="">
+				        </div>
+				        <p class="p1">联系方式</p>
+				        <p class="p2">020-38285065</p>
+				    </div>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+
+			<div class="footer-container">
+				<p class="p1">公司发展迅速，需要大量专业人才</p>
+				<p class="p2">赶紧加入我们吧！</p>
+				<p class="p3">
+					<a href="javascript:;" class="k-t-d">了解详情</a>
+				</p>
+			</div>
+
+			<p class="copy">Copyright © 51job. All Rights Reserved.</p>
+
+		</div>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/public.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".contact-item").hover(function() {
+					console.log("55")
+					$(this).addClass("contact-item-active")
+				},function(){
+					$(this).removeClass("contact-item-active")
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+.main-lx {
+	height: 620px !important;
+	background: url(../images/bg.png) no-repeat bottom;
+}
+.main-lx .center-lx  {
+	height: 600px;
+}
+.main-lx .center-lx .contact-list {
+	width: 840px;
+	margin: 0 auto;
+}
+.main-lx .center-lx .contact-list .contact-item {
+  margin-top: 30px;
+  width: 33.33333%;
+  height: 300px;
+  float: left;
+}
+
+.main-lx .contact-list .contact-item .img {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 98px;
+  height: 98px;
+  background: #f7f7f7;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  line-height: 98px;
+}
+.main-lx .contact-list .contact-item .img img {
+  vertical-align: middle;
+}
+.main-lx .contact-list .contact-item p {
+  width: 100%;
+  text-align: center;
+}
+.main-lx .contact-list .contact-item .p1 {
+  margin-top: 23px;
+  margin-bottom: 13px;
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+.main-lx .contact-list .contact-item .p2 {
+  font-size: 18px;
+  color: #666666;
+}
+.main-lx .contact-list .contact-item .p3 {
+  font-size: 18px;
+  color: #666666;
+  margin-top: 10px;
+}
+.main-lx .contact-list .contact-item-active {
+  background: #0071bc;
+  width: 33.33333%;
+  height: 300px;
+}
+.main-lx .contact-list .contact-item-active .img {
+  background: #ffffff;
+}
+.main-lx .contact-list .contact-item-active p {
+  color: #ffffff !important;
+}

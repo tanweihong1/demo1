@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+	font-family: c, 'microsoft yahei', '微软雅黑';
+	font-size: 16px;
+}
+.header {
+	position: relative;
+	height: auto;
+}
+
+.header .nav {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -600px;
+	width: 1200px;
+}
+
+.header .logo {
+	float: left;
+	margin-top: 10px;
+}
+
+.header .nav-list {
+	float: right;
+}
+
+.header .nav-list li {
+	float: left;
+	display: block;
+}
+
+.header .nav-list li .nav-a {
+	display: inline-block;
+	padding: 40px 30px;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.header .nav-list li .nav-a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* .header .nav-list li .nav-a-active {
+	background-color: rgba(0, 0, 0, 0.1);
+} */
+.main-gs {
+	width: 100%;
+	height: 710px;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.main-gs .center {
+	width: 1200px;
+	height: 710px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -75px;
+	background-color: #FFFFFF;
+	text-align: center;
+	box-shadow: 0px 5px #FFFAFA;
+}
+.main-gs .center-top {
+	/* height: 160px; */
+	margin: 0 0 20px auto;
+
+	
+}
+.main-gs .center-top .p1 {
+	margin-top: 75px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #333333;
+	margin-bottom: 7px;
+}
+
+.main-gs .center-top .p2 {
+	font-size: 18px;
+	color: #b2b2b2;
+		position: relative;
+}
+
+.main-gs .center-top .p2::after {
+	content: "";
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	bottom: -8px;
+	background: #0071bc;
+	display: block;
+}
+
+.footer .footer-container {
+	width: 100%;
+	height: 320px;
+	background: url(../images/footbg.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.footer .footer-container p {
+	color: #ffffff;
+}
+
+.footer .footer-container .p1 {
+	font-size: 20px;
+	padding-top: 75px;
+}
+
+.footer .footer-container .p2 {
+	padding-top: 24px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.footer .footer-container .p3 a {
+	display: inline-block;
+	width: 158px;
+	height: 49px;
+	background: #ffffff;
+	border-radius: 7px;
+	color: #333333;
+	font-size: 16px;
+	text-align: center;
+	line-height: 49px;
+
+}
+.footer .copy {
+	color: #ffffff;
+	height: 67px;
+	background: #333333;
+	line-height: 67px;
+	text-align: center;
+
+}
+.nav-a-active {
+	background-color: rgba(0, 0, 0, 0.1);
+}

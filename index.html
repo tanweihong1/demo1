@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+		<title>首页</title>
+	</head>
+	<body>
+		<div class="header">
+			<img src="images/banner.jpg" style="width: 100%;" />
+			<div class="nav">
+				<div class="logo"><img src="images/logo.png" alt=""></div>
+				<ul class="nav-list">
+					<li><a href="index.html" class="nav-a nav-a-active">首页</a></li>
+					<li><a href="gsjj.html" class="nav-a">公司简介</a></li>
+					<li><a href="zpgw.html" class="nav-a">招聘岗位</a></li>
+					<li><a href="zplc.html" class="nav-a">招聘流程</a></li>
+					<li><a href="fztd.html" class="nav-a">发展通道</a></li>
+					<li><a href="fldy.html" class="nav-a">福利待遇</a></li>
+					<li><a href="lxfs.html" class="nav-a">联系方式</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- header end -->
+		<div class="main">
+			<div class="center">
+				<div class="center-top">
+					<div class="block">
+						<p class="p1">
+							<span class="num">19</span>
+							台
+						</p>
+						<p class="p2">三菱、海瑞克、维尔特等品牌盾构机</p>
+					</div>
+					<div class="block">
+						<p class="p1">
+							<span class="num">170</span>
+							公里
+						</p>
+						<p class="p2">承建地铁车站工程40座，施工总长度</p>
+					</div>
+					<div class="block">
+						<p class="p1">
+							<span class="num">35</span>
+							项
+						</p>
+						<p class="p2">国家专利</p>
+					</div>
+				</div>
+				<div class="center-bottom">
+					<div class="left-box">
+						<p class="title">关于我们</p>
+						<div class="content">
+							粤水电轨道交通建设有限公司是广东水电二局股份有限公司（股票简称：粤水电，股票代码：(002060）的全资子公司，是“国家高新技术企业”“广东省诚信示范企业”“广东省自主创新示范企业”，被认定为“广东省盾构工程技术研究中心”，获评“广州市企业安全生产工作先进单位”“广州市科技创新小巨人企业”“广州市企业研究开发机构”。
+						</div>
+						<a href="gsjj.html" class="see-details">查看详情</a>
+					</div>
+					<div class="right-box">
+						<img src="images/gywm.jpg" alt="" class="right-img">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sgxc-container">
+			<p class="p1 wow fadeInDown" data-wow-offset="100" data-wow-iteration="1">施工现场</p>
+			<p class="p2 wow fadeInDown" data-wow-offset="100" data-wow-iteration="1">ENGINEERING HONORS</p>
+			<div class="lbt-container">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slide-img">
+								<img src="images/image1.jpg" alt="">
+							</div>
+							<p class="slide-title">盾构现场实况</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img">
+								<img src="images/image2.jpg" alt="">
+							</div>
+							<p class="slide-title">盾构贯通的喜悦</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img">
+								<img src="images/image3.jpg" alt="">
+							</div>
+							<p class="slide-title">水天盾构区间全线贯通</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img">
+								<img src="images/image1.jpg" alt="">
+							</div>
+							<p class="slide-title">盾构现场实况</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img">
+								<img src="images/image2.jpg" alt="">
+							</div>
+							<p class="slide-title">盾构贯通的喜悦</p>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-img">
+								<img src="images/image3.jpg" alt="">
+							</div>
+							<p class="slide-title">水天盾构区间全线贯通</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+
+			<div class="footer-container">
+				<p class="p1">公司发展迅速，需要大量专业人才</p>
+				<p class="p2">赶紧加入我们吧！</p>
+				<p class="p3">
+					<a href="javascript:;" class="k-t-d">了解详情</a>
+				</p>
+			</div>
+			<p class="copy">Copyright © 51job. All Rights Reserved.</p>
+		</div>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-bundle.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				slidesPerView: 3,
+				spaceBetween: 30,
+			});
+			$(function() {
+				$(window).scroll(function() {
+					$(".center-bottom").offset().top;
+					if($(document).scrollTop() >=$(".center-bottom").offset().top) {
+						$(".center-bottom").slideDown(2000)
+					} 	
+				});
+				   $(".block").hover(function() {
+						
+						$(this).addClass("block-active")
+					},function(){
+						$(this).removeClass("block-active")
+					})
+			
+			})
+		</script>
+	</body>
+</html>
